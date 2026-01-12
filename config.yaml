@@ -1,0 +1,17 @@
+test1:
+  server: 10.0.0.2
+  cluster_names:
+    - test1
+    - test2
+
+test2:
+  server: 10.0.0.3
+  cluster_names:
+    - test2
+    - test3
+
+test3:
+  server: 10.0.0.4
+  cluster_names:
+    - test3
+    - test4
