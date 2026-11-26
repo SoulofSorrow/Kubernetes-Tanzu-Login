@@ -27,3 +27,8 @@ Dieses Python-Programm bietet eine grafische Benutzeroberfläche (GUI) für den 
 
 **Hinweis:** Dieses Dienstprogramm wurde für die Verwendung mit VMware Tanzu entwickelt und erfordert Tanzu-Konfigurationsdateien sowie einen gültigen Benutzernamen und ein Passwort.
 
+## Dokumentation
+
+- [docs/README.md](docs/README.md): Index der technischen Dokumentation (Englisch, primär für KI-Agenten) und der Änderungsprotokolle in `docs/changes/`.
+- [AGENTS.md](AGENTS.md): Regeln und Befehle für KI-Coding-Agenten.
+- Jede Änderung bekommt eine Datei in `docs/changes/`.
