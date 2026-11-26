@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c \"import ast; ast.parse(open('start.py').read())\")",
+      "Bash(make help)",
+      "Bash(make check-git)",
+      "Bash(make info)"
+    ],
+    "ask": [
+      "Bash(python3 start.py:*)",
+      "Bash(kubectl-vsphere:*)",
+      "Bash(make clean)",
+      "Bash(make setup)",
+      "Bash(make all)",
+      "Bash(make install-:*)",
+      "Bash(make set-git-local)",
+      "Bash(git push:*)"
+    ],
+    "deny": [
+      "Read(./.env)",
+      "Read(~/.kube/**)"
+    ]
+  }
+}
